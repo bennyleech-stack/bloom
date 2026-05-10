@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20180%20180%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22bg%22%20cx%3D%2240%25%22%20cy%3D%2230%25%22%20r%3D%2275%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23EFE0D8%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23DBBFB2%22/%3E%3C/radialGradient%3E%3ClinearGradient%20id%3D%22bl%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23C9A99A%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23A07B6C%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22ll%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238A9E8B%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235E7860%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%2240%22%20fill%3D%22url%28%23bg%29%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22rgba%28201%2C169%2C154%2C.18%29%22%20stroke-width%3D%221%22/%3E%3Cpath%20d%3D%22M48%2084%20C48%20116%2070%20130%2090%20130%20C110%20130%20132%20116%20132%2084%20Z%22%20fill%3D%22url%28%23bl%29%22%20opacity%3D%22.9%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2242%22%20ry%3D%2210%22%20fill%3D%22%23C9A99A%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2242%22%20ry%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23A07B6C%22%20stroke-width%3D%221.5%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2228%22%20ry%3D%226%22%20fill%3D%22rgba%28247%2C240%2C235%2C.25%29%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2282%22%20rx%3D%2234%22%20ry%3D%227%22%20fill%3D%22%23E8D5CE%22%20opacity%3D%22.7%22/%3E%3Cpath%20d%3D%22M72%2074%20C68%2064%2080%2056%2086%2066%20C80%2068%2076%2072%2072%2074Z%22%20fill%3D%22url%28%23ll%29%22%20opacity%3D%22.9%22/%3E%3Cpath%20d%3D%22M82%2070%20C80%2060%2092%2054%2094%2064%20C90%2066%2086%2068%2082%2070Z%22%20fill%3D%22url%28%23ll%29%22%20opacity%3D%22.85%22/%3E%3Ccircle%20cx%3D%22104%22%20cy%3D%2274%22%20r%3D%228%22%20fill%3D%22%23E8C8A0%22%20opacity%3D%22.9%22/%3E%3Ccircle%20cx%3D%22104%22%20cy%3D%2274%22%20r%3D%224%22%20fill%3D%22%23D4A870%22%20opacity%3D%22.8%22/%3E%3Ccircle%20cx%3D%2294%22%20cy%3D%2278%22%20r%3D%223.5%22%20fill%3D%22%23B8826E%22%20opacity%3D%22.9%22/%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2276%22%20r%3D%223%22%20fill%3D%22%23C9A99A%22%20opacity%3D%22.8%22/%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%2277%22%20r%3D%222.5%22%20fill%3D%22%23B8826E%22%20opacity%3D%22.75%22/%3E%3Cg%20transform%3D%22translate%28118%2C52%29%22%20opacity%3D%22.7%22%3E%3Cpath%20d%3D%22M0-8%20L2-2%20L8%200%20L2%202%20L0%208%20L-2%202%20L-8%200%20L-2-2Z%22%20fill%3D%22%23C9A99A%22/%3E%3Cpath%20d%3D%22M0-4%20L1-1%20L4%200%20L1%201%20L0%204%20L-1%201%20L-4%200%20L-1-1Z%22%20fill%3D%22white%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20180%20180%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22bg%22%20cx%3D%2240%25%22%20cy%3D%2230%25%22%20r%3D%2275%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23EFE0D8%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23DBBFB2%22/%3E%3C/radialGradient%3E%3ClinearGradient%20id%3D%22bl%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23C9A99A%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23A07B6C%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22ll%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238A9E8B%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235E7860%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%2240%22%20fill%3D%22url%28%23bg%29%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22rgba%28201%2C169%2C154%2C.18%29%22%20stroke-width%3D%221%22/%3E%3Cpath%20d%3D%22M48%2084%20C48%20116%2070%20130%2090%20130%20C110%20130%20132%20116%20132%2084%20Z%22%20fill%3D%22url%28%23bl%29%22%20opacity%3D%22.9%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2242%22%20ry%3D%2210%22%20fill%3D%22%23C9A99A%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2242%22%20ry%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23A07B6C%22%20stroke-width%3D%221.5%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2284%22%20rx%3D%2228%22%20ry%3D%226%22%20fill%3D%22rgba%28247%2C240%2C235%2C.25%29%22/%3E%3Cellipse%20cx%3D%2290%22%20cy%3D%2282%22%20rx%3D%2234%22%20ry%3D%227%22%20fill%3D%22%23E8D5CE%22%20opacity%3D%22.7%22/%3E%3Cpath%20d%3D%22M72%2074%20C68%2064%2080%2056%2086%2066%20C80%2068%2076%2072%2072%2074Z%22%20fill%3D%22url%28%23ll%29%22%20opacity%3D%22.9%22/%3E%3Cpath%20d%3D%22M82%2070%20C80%2060%2092%2054%2094%2064%20C90%2066%2086%2068%2082%2070Z%22%20fill%3D%22url%28%23ll%29%22%20opacity%3D%22.85%22/%3E%3Ccircle%20cx%3D%22104%22%20cy%3D%2274%22%20r%3D%228%22%20fill%3D%22%23E8C8A0%22%20opacity%3D%22.9%22/%3E%3Ccircle%20cx%3D%22104%22%20cy%3D%2274%22%20r%3D%224%22%20fill%3D%22%23D4A870%22%20opacity%3D%22.8%22/%3E%3Ccircle%20cx%3D%2294%22%20cy%3D%2278%22%20r%3D%223.5%22%20fill%3D%22%23B8826E%22%20opacity%3D%22.9%22/%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%2276%22%20r%3D%223%22%20fill%3D%22%23C9A99A%22%20opacity%3D%22.8%22/%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%2277%22%20r%3D%222.5%22%20fill%3D%22%23B8826E%22%20opacity%3D%22.75%22/%3E%3Cg%20transform%3D%22translate%28118%2C52%29%22%20opacity%3D%22.7%22%3E%3Cpath%20d%3D%22M0-8%20L2-2%20L8%200%20L2%202%20L0%208%20L-2%202%20L-8%200%20L-2-2Z%22%20fill%3D%22%23C9A99A%22/%3E%3Cpath%20d%3D%22M0-4%20L1-1%20L4%200%20L1%201%20L0%204%20L-1%201%20L-4%200%20L-1-1Z%22%20fill%3D%22white%22%20opacity%3D%22.6%22/%3E%3C/g%3E%3C/svg%3E">
+<meta name="theme-color" content="#DBBFB2">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Nourish AI — Bloom</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--clay:#C9A99A;--blush:#E8D5CE;--parchment:#F7F0EB;--sage:#8A9E8B;--sage-light:#C4D4C5;--ink:#2C2826;--warm-mid:#7A6860;--accent:#B8826E;--gold:#C4A882;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--parchment);color:var(--ink);font-family:'DM Sans',sans-serif;font-weight:300;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(ellipse at 20% 10%,rgba(201,169,154,.15) 0%,transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(138,158,139,.12) 0%,transparent 50%);pointer-events:none;z-index:0;}
+.wrap{position:relative;z-index:1;max-width:430px;margin:0 auto;padding:48px 24px 40px;}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--warm-mid);text-decoration:none;letter-spacing:.08em;text-transform:uppercase;margin-bottom:20px;opacity:.6;}
+.back:hover{opacity:1;}
+.logo{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;letter-spacing:.04em;line-height:1;margin-bottom:2px;}
+.logo em{font-style:italic;color:var(--clay);}
+.app-name{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--clay);margin-bottom:26px;}
+.screen-title{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:300;line-height:1.1;margin-bottom:4px;}
+.screen-title em{font-style:italic;color:var(--clay);}
+.section-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:10px;font-weight:400;}
+.card{background:white;border-radius:20px;padding:17px;border:1px solid rgba(201,169,154,.14);box-shadow:0 2px 12px rgba(44,40,38,.04);margin-bottom:14px;}
+/* food entry */
+.food-row{display:flex;gap:8px;align-items:center;margin-bottom:11px;}
+.food-inp{flex:1;border:1.5px solid rgba(201,169,154,.24);border-radius:50px;padding:11px 16px;font-family:'DM Sans',sans-serif;font-size:13px;color:var(--ink);background:var(--parchment);outline:none;}
+.food-inp:focus{border-color:var(--sage);}
+.food-inp::placeholder{color:var(--warm-mid);opacity:.4;}
+.add-btn{width:40px;height:40px;border-radius:50%;background:var(--clay);color:white;border:none;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;}
+.add-btn:hover{background:var(--accent);transform:scale(1.05);}
+.food-list{display:flex;flex-direction:column;gap:7px;}
+.food-item{display:flex;align-items:flex-start;gap:9px;padding:10px 11px;background:var(--parchment);border-radius:13px;animation:fadeUp .22s ease;}
+.food-emoji{font-size:17px;flex-shrink:0;margin-top:1px;}
+.food-info{flex:1;}
+.food-text{font-size:13px;color:var(--ink);margin-bottom:3px;}
+.food-macros{font-size:10px;color:var(--warm-mid);}
+.food-time{font-size:10px;color:var(--warm-mid);opacity:.5;white-space:nowrap;}
+.food-remove{background:none;border:none;color:var(--warm-mid);opacity:.3;cursor:pointer;font-size:13px;padding:2px 4px;transition:opacity .2s;flex-shrink:0;}
+.food-remove:hover{opacity:.8;}
+.food-empty{font-size:12px;color:var(--warm-mid);opacity:.4;padding:4px 0;}
+/* macros */
+.macro-row{display:flex;gap:7px;}
+.macro-pill{flex:1;background:white;border-radius:12px;padding:11px 8px;text-align:center;border:1px solid rgba(201,169,154,.13);}
+.macro-num{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;line-height:1;}
+.macro-lbl{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--warm-mid);}
+.macro-num.kcal{color:var(--accent);}
+.macro-num.prot{color:var(--sage);}
+.macro-num.carb{color:var(--gold);}
+.macro-num.fat{color:var(--clay);}
+/* quick picks */
+.quick-chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:4px;}
+.qchip{border:1.5px solid rgba(201,169,154,.22);border-radius:50px;padding:7px 12px;font-size:12px;background:white;cursor:pointer;color:var(--warm-mid);transition:all .2s;font-family:'DM Sans',sans-serif;}
+.qchip:hover{background:var(--blush);border-color:var(--clay);color:var(--clay);}
+/* AI panel */
+.ai-card{background:var(--ink);border-radius:22px;padding:19px 20px;margin-bottom:14px;position:relative;overflow:hidden;}
+.ai-card::before{content:'';position:absolute;top:-40px;right:-40px;width:130px;height:130px;border-radius:50%;background:rgba(201,169,154,.1);pointer-events:none;}
+.ai-header{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.ai-spark{width:30px;height:30px;border-radius:50%;background:rgba(201,169,154,.18);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;}
+.ai-title{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:300;font-style:italic;color:white;}
+.ai-sub{font-size:10px;color:rgba(255,255,255,.38);}
+.ai-prompts{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px;}
+.ai-chip{border:1px solid rgba(201,169,154,.28);border-radius:50px;padding:5px 11px;font-size:11px;color:rgba(255,255,255,.65);cursor:pointer;transition:all .2s;background:none;font-family:'DM Sans',sans-serif;}
+.ai-chip:hover{background:rgba(201,169,154,.15);color:white;}
+.ai-row{display:flex;gap:7px;align-items:center;}
+.ai-inp{flex:1;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:50px;padding:10px 16px;font-family:'DM Sans',sans-serif;font-size:12px;color:white;outline:none;}
+.ai-inp:focus{border-color:rgba(201,169,154,.5);}
+.ai-inp::placeholder{color:rgba(255,255,255,.3);}
+.ai-send{width:34px;height:34px;border-radius:50%;background:var(--clay);border:none;cursor:pointer;color:white;font-size:13px;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;}
+.ai-send:hover{background:var(--accent);}
+.ai-send:disabled{opacity:.35;cursor:not-allowed;}
+.ai-resp{margin-top:10px;background:rgba(255,255,255,.07);border-radius:14px;padding:13px;font-size:13px;color:rgba(255,255,255,.82);line-height:1.6;display:none;animation:fadeUp .3s ease;}
+.ai-resp.vis{display:block;}
+.ai-dots{display:flex;gap:5px;align-items:center;height:18px;}
+.ai-dot{width:5px;height:5px;border-radius:50%;background:var(--clay);animation:pulse 1.2s infinite;}
+.ai-dot:nth-child(2){animation-delay:.2s;}
+.ai-dot:nth-child(3){animation-delay:.4s;}
+/* mood */
+.mood-row{display:flex;justify-content:space-between;margin-top:10px;}
+.mood-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;cursor:pointer;padding:7px 3px;border-radius:12px;transition:all .2s;font-family:'DM Sans',sans-serif;}
+.mood-btn:hover,.mood-btn.active{background:var(--parchment);}
+.mood-e{font-size:22px;}
+.mood-l{font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--warm-mid);}
+.toast{display:none;position:fixed;top:62px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;border-radius:50px;padding:11px 22px;font-size:12px;z-index:400;white-space:nowrap;box-shadow:0 8px 24px rgba(44,40,38,.22);}
+.toast.show{display:block;animation:toastIn .3s cubic-bezier(.34,1.56,.64,1),toastOut .28s 2.2s ease forwards;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,60%,100%{transform:scale(.7);opacity:.4}30%{transform:scale(1);opacity:1}}
+@keyframes toastIn{from{opacity:0;transform:translateX(-50%) translateY(-8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+@keyframes toastOut{from{opacity:1}to{opacity:0}}
+</style>
+
+<link rel="manifest" href="nourish-manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Nourish">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← bloom</a>
+  <div class="logo">bl<em>oo</em>m</div>
+  <div class="app-name">Nourish AI</div>
+
+  <div class="screen-title">Food &amp;<br><em>drinks</em></div>
+  <div style="font-size:12px;color:var(--warm-mid);margin-bottom:22px;">Log meals and drinks — AI estimates nutrition as you go</div>
+
+  <!-- Food entry — quick picks first, then free text -->
+  <div class="card" style="padding-bottom:14px;">
+    <div class="section-label" style="margin-bottom:8px;">Quick log</div>
+    <div class="quick-chips" style="margin-bottom:14px;">
+      <div class="qchip" onclick="quickLog('Green smoothie')">🥤 Green smoothie</div>
+      <div class="qchip" onclick="quickLog('Protein shake')">🥛 Protein shake</div>
+      <div class="qchip" onclick="quickLog('Handful of almonds')">🥜 Nuts</div>
+      <div class="qchip" onclick="quickLog('Greek yogurt with honey')">🫙 Greek yogurt</div>
+      <div class="qchip" onclick="quickLog('Piece of fruit')">🍎 Fruit</div>
+      <div class="qchip" onclick="quickLog('Black coffee')">☕ Coffee</div>
+      <div class="qchip" onclick="quickLog('Herbal tea')">🍵 Herbal tea</div>
+      <div class="qchip" onclick="quickLog('Glass of water')">💧 Water</div>
+    </div>
+    <div class="section-label" style="margin-bottom:8px;">Or describe it</div>
+    <div class="food-row">
+      <input class="food-inp" id="food-inp" placeholder="e.g. porridge with blueberries and almond butter…" />
+      <button class="add-btn" onclick="addFood()" title="Add">+</button>
+    </div>
+    <!-- Photo upload -->
+    <div style="margin-top:10px;">
+      <input type="file" id="photo-inp" accept="image/*" capture="environment" style="display:none;" onchange="handlePhoto(event)" />
+      <button onclick="document.getElementById('photo-inp').click()" style="width:100%;background:var(--parchment);border:1.5px dashed rgba(201,169,154,.4);border-radius:12px;padding:11px;font-family:'DM Sans',sans-serif;font-size:12px;color:var(--warm-mid);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:all .2s;" onmouseover="this.style.borderColor='var(--clay)'" onmouseout="this.style.borderColor='rgba(201,169,154,.4)'">
+        <span style="font-size:18px;">📷</span> Photograph your meal — AI will identify and log it
+      </button>
+      <div id="photo-preview" style="display:none;margin-top:10px;"></div>
+    </div>
+  </div>
+
+  <!-- Food list -->
+  <div class="card">
+    <div class="section-label">Today's log</div>
+    <div class="food-list" id="food-list"></div>
+  </div>
+
+  <!-- Macro goals — progress against targets, most actionable nutrition view -->
+  <div class="card" id="macro-goals-card">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">
+      <div class="section-label" style="margin-bottom:0;">Progress to goals</div>
+      <button onclick="openGoals()" style="font-size:11px;color:var(--warm-mid);background:none;border:none;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;opacity:.7;">Edit goals</button>
+    </div>
+    <div id="macro-goals-bars"></div>
+    <div style="font-size:10px;color:var(--warm-mid);margin-top:10px;opacity:.55;">AI-estimated · tap Edit goals to set your targets</div>
+  </div>
+
+  <!-- AI guide -->
+  <div class="ai-card">
+    <div class="ai-header">
+      <div class="ai-spark">✨</div>
+      <div>
+        <div class="ai-title">Nourish AI</div>
+        <div class="ai-sub">Reads your full food log · gives personalised guidance</div>
+      </div>
+    </div>
+    <div class="ai-prompts">
+      <button class="ai-chip" onclick="ask(this.textContent)">What am I missing today?</button>
+      <button class="ai-chip" onclick="ask(this.textContent)">Is this balanced?</button>
+      <button class="ai-chip" onclick="ask(this.textContent)">What should I eat next?</button>
+      <button class="ai-chip" onclick="ask(this.textContent)">Anti-inflammatory tips</button>
+      <button class="ai-chip" onclick="ask(this.textContent)">Reformer Pilates recovery foods</button>
+      <button class="ai-chip" onclick="ask(this.textContent)">Energy boost ideas</button>
+    </div>
+    <div class="ai-row">
+      <input class="ai-inp" id="ai-inp" placeholder="Ask anything about your nourishment…" />
+      <button class="ai-send" id="ai-send" onclick="askInput()">→</button>
+    </div>
+    <div class="ai-resp" id="ai-resp"></div>
+  </div>
+
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<!-- GOALS MODAL -->
+<div id="goals-overlay" style="display:none;position:fixed;inset:0;background:rgba(44,40,38,.5);backdrop-filter:blur(4px);z-index:200;align-items:flex-end;justify-content:center;" onclick="closeGoalsOut(event)">
+  <div style="background:var(--parchment);border-radius:26px 26px 0 0;padding:22px 22px 44px;width:100%;max-width:430px;animation:slideUp .3s cubic-bezier(.34,1.56,.64,1);">
+    <div style="width:34px;height:4px;background:rgba(44,40,38,.14);border-radius:2px;margin:0 auto 18px;"></div>
+    <div style="font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:300;font-style:italic;margin-bottom:3px;">Daily macro goals</div>
+    <div style="font-size:12px;color:var(--warm-mid);margin-bottom:20px;">Set your daily targets — we'll track progress as you log</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;">
+      <div>
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:7px;">Calories (kcal)</div>
+        <input id="g-kcal" type="number" step="50" placeholder="e.g. 1800" style="border:1.5px solid rgba(201,169,154,.24);border-radius:12px;padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:white;outline:none;width:100%;" />
+      </div>
+      <div>
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:7px;">Protein (g)</div>
+        <input id="g-prot" type="number" step="5" placeholder="e.g. 120" style="border:1.5px solid rgba(201,169,154,.24);border-radius:12px;padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:white;outline:none;width:100%;" />
+      </div>
+      <div>
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:7px;">Carbs (g)</div>
+        <input id="g-carb" type="number" step="10" placeholder="e.g. 200" style="border:1.5px solid rgba(201,169,154,.24);border-radius:12px;padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:white;outline:none;width:100%;" />
+      </div>
+      <div>
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:7px;">Fat (g)</div>
+        <input id="g-fat" type="number" step="5" placeholder="e.g. 65" style="border:1.5px solid rgba(201,169,154,.24);border-radius:12px;padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:white;outline:none;width:100%;" />
+      </div>
+    </div>
+    <button onclick="saveGoals()" style="width:100%;background:var(--ink);color:white;border:none;border-radius:50px;padding:14px;font-family:'DM Sans',sans-serif;font-size:13px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;">Save goals ✓</button>
+  </div>
+</div>
+<style>@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}</style>
+<script>
+const KEY='bloom_v1';
+const API_KEY_STORE='bloom_api_key';
+function getApiKey(){try{return localStorage.getItem(API_KEY_STORE)||'';}catch(e){return '';}}
+function td(d){const dt=d||new Date();return dt.toISOString().slice(0,10);}
+const TODAY=td();
+function load(){try{const r=localStorage.getItem(KEY);if(r)return JSON.parse(r);}catch(e){}return{sessions:[],nourish:{},sleep:{},bodyweight:[],measurements:[]};}
+function save(s){try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}}
+let S=load();
+function getTN(){if(!S.nourish[TODAY])S.nourish[TODAY]={water:0,foods:[],drinks:[]};return S.nourish[TODAY];}
+
+async function callAI({system,messages,maxTokens=1000}){
+  const key=getApiKey();
+  if(!key)throw new Error('NO_KEY');
+  const r=await fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+    body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:maxTokens,system,messages})
+  });
+  const data=await r.json();
+  if(data.error)throw new Error(data.error.message);
+  return data.content?.find(b=>b.type==='text')?.text||'';
+}
+
+function noKeyWarning(el){
+  if(el)el.innerHTML='<span style="color:var(--accent);">No API key found — open Bloom and tap ⚙️ to add your Anthropic API key.</span>';
+}
+
+const EMOJI_MAP={'water|tea|coffee|juice|smoothie|drink|herbal|matcha|latte|chai':'🫖','salad|vegg|spinach|kale|broccoli|carrot':'🥗','berry|fruit|apple|banana|mango|orange':'🍓','egg|chicken|fish|salmon|tuna|tofu|beef|turkey|meat|prawn|protein':'🥚','oat|porridge|grain|bread|rice|pasta|noodle|gnocchi|sourdough|wrap':'🌾','yogurt|greek|kefir|ferment':'🫙','nut|almond|avocado|olive|seed':'🥑','soup|stew|bowl|curry':'🍲','chocolate|sweet|cake|biscuit|dessert|cookie':'🍫','pizza|burger|sandwich|roll':'🥪'};
+function guessEmoji(t){const l=t.toLowerCase();for(const[k,v]of Object.entries(EMOJI_MAP)){if(k.split('|').some(w=>l.includes(w)))return v;}return'🌿';}
+
+function addFood(text){
+  const inp=document.getElementById('food-inp');
+  const txt=(text||inp.value).trim();
+  if(!txt)return;
+  if(!text)inp.value='';
+  const now=new Date();
+  const time=now.toLocaleTimeString('en-AU',{hour:'2-digit',minute:'2-digit',hour12:true});
+  const item={id:Date.now(),text:txt,time,emoji:guessEmoji(txt),macros:null};
+  getTN().foods.unshift(item);save(S);
+  renderFoodList();renderMacros();
+  estimateMacros(item);
+}
+function quickLog(txt){addFood(txt);}
+function removeFood(idx){getTN().foods.splice(idx,1);save(S);renderFoodList();renderMacros();}
+
+async function estimateMacros(item){
+  try{
+    const text=await callAI({
+      system:'You are a nutrition estimator. Return ONLY a JSON object with keys: kcal (integer), prot (grams 1dp), carb (grams 1dp), fat (grams 1dp), fibre (grams 1dp). Be realistic with typical portion sizes. No markdown, no text, valid JSON only.',
+      messages:[{role:'user',content:item.text}]
+    });
+    item.macros=JSON.parse(text.replace(/```json|```/g,'').trim());
+  }catch(e){
+    item.macros={kcal:'?',prot:'?',carb:'?',fat:'?'};
+  }
+  save(S);renderFoodList();renderMacroGoals();
+}
+
+function renderFoodList(){
+  const n=getTN();const list=document.getElementById('food-list');if(!list)return;
+  if(!n.foods.length){list.innerHTML='<div class="food-empty">Nothing logged yet — add a meal or drink above</div>';return;}
+  list.innerHTML=n.foods.map((f,i)=>`
+    <div class="food-item">
+      <span class="food-emoji">${f.emoji}</span>
+      <div class="food-info">
+        <div class="food-text">${f.text}</div>
+        <div class="food-macros">${f.macros?(f.macros.kcal==='?'?'Estimating…':`${f.macros.kcal} kcal · ${f.macros.prot}g protein · ${f.macros.carb}g carbs · ${f.macros.fat}g fat`):'Estimating…'}</div>
+      </div>
+      <span class="food-time">${f.time}</span>
+      <button class="food-remove" onclick="removeFood(${i})">✕</button>
+    </div>`).join('');
+}
+
+function calcTotals(){
+  return getTN().foods.reduce((a,f)=>{
+    if(!f.macros||f.macros.kcal==='?')return a;
+    return{kcal:a.kcal+(f.macros.kcal||0),prot:a.prot+parseFloat(f.macros.prot||0),carb:a.carb+parseFloat(f.macros.carb||0),fat:a.fat+parseFloat(f.macros.fat||0)};
+  },{kcal:0,prot:0,carb:0,fat:0});
+}
+
+function getGoals(){
+  try{const g=localStorage.getItem('bloom_goals');if(g)return JSON.parse(g);}catch(e){}
+  return{kcal:null,prot:null,carb:null,fat:null};
+}
+function saveGoalsToStorage(g){try{localStorage.setItem('bloom_goals',JSON.stringify(g));}catch(e){}}
+
+function renderMacros(){renderMacroGoals();}
+
+function renderMacroGoals(){
+  const t=calcTotals();
+  const goals=getGoals();
+  const el=document.getElementById('macro-goals-bars');
+  if(!el)return;
+
+  const hasAnyData=t.kcal||t.prot||t.carb||t.fat;
+  if(!hasAnyData){
+    el.innerHTML='<div style="font-size:12px;color:var(--warm-mid);opacity:.45;">Log meals above to see nutrition progress</div>';
+    return;
+  }
+
+  const items=[
+    {key:'kcal',label:'Calories',val:Math.round(t.kcal),goal:goals.kcal,unit:'kcal',color:'var(--accent)'},
+    {key:'prot',label:'Protein',val:parseFloat(t.prot.toFixed(1)),goal:goals.prot,unit:'g',color:'var(--sage)'},
+    {key:'carb',label:'Carbs',val:parseFloat(t.carb.toFixed(1)),goal:goals.carb,unit:'g',color:'var(--gold)'},
+    {key:'fat',label:'Fat',val:parseFloat(t.fat.toFixed(1)),goal:goals.fat,unit:'g',color:'var(--clay)'},
+  ];
+
+  el.innerHTML=items.map(item=>{
+    const hasGoal=item.goal&&item.goal>0;
+    const pct=hasGoal?Math.min(100,item.val/item.goal*100):0;
+    const over=hasGoal&&item.val>item.goal;
+    const barColor=over?'var(--accent)':item.color;
+    return`<div style="margin-bottom:14px;">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;">
+        <span style="font-size:12px;font-weight:400;color:var(--ink);">${item.label}</span>
+        <span style="font-size:13px;color:${over?'var(--accent)':item.color};font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:300;">${item.val}${item.unit}${hasGoal?`<span style="font-size:11px;color:var(--warm-mid);font-family:'DM Sans',sans-serif;font-weight:300;"> / ${item.goal}${item.unit}</span>`:''}</span>
+      </div>
+      ${hasGoal?`<div style="height:6px;background:var(--parchment);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${pct}%;background:${barColor};border-radius:3px;transition:width .5s ease;"></div></div>`
+      :`<div style="font-size:10px;color:var(--warm-mid);opacity:.5;">No goal set — tap Edit goals</div>`}
+    </div>`;
+  }).join('');
+}
+
+function openGoals(){
+  const goals=getGoals();
+  const fields={kcal:'g-kcal',prot:'g-prot',carb:'g-carb',fat:'g-fat'};
+  Object.entries(fields).forEach(([k,id])=>{const el=document.getElementById(id);if(el&&goals[k])el.value=goals[k];});
+  const ov=document.getElementById('goals-overlay');if(ov){ov.style.display='flex';}
+}
+
+function closeGoalsOut(e){if(e.target===document.getElementById('goals-overlay'))closeGoals();}
+function closeGoals(){const ov=document.getElementById('goals-overlay');if(ov)ov.style.display='none';}
+
+function saveGoals(){
+  const g={
+    kcal:parseFloat(document.getElementById('g-kcal').value)||null,
+    prot:parseFloat(document.getElementById('g-prot').value)||null,
+    carb:parseFloat(document.getElementById('g-carb').value)||null,
+    fat:parseFloat(document.getElementById('g-fat').value)||null,
+  };
+  saveGoalsToStorage(g);
+  closeGoals();
+  renderMacroGoals();
+  showToast('Macro goals saved ✓');
+}
+
+function buildCtx(){
+  const n=getTN();const t=calcTotals();const goals=getGoals();
+  const foods=n.foods.map(f=>f.text).join(', ')||'nothing logged';
+  const macros=t.kcal?`Estimated ${Math.round(t.kcal)} kcal, ${t.prot.toFixed(0)}g protein, ${t.carb.toFixed(0)}g carbs, ${t.fat.toFixed(0)}g fat.`:'No nutrition data yet.';
+  const goalStr=goals.kcal?`Daily goals: ${goals.kcal} kcal, ${goals.prot||'?'}g protein, ${goals.carb||'?'}g carbs, ${goals.fat||'?'}g fat.`:'No macro goals set.';
+  const sl=S.sleep[TODAY];const sleepStr=sl?`Sleep last night: ${sl.hrs}h quality ${sl.quality}/5.`:'No sleep logged.';
+  return`Food logged today: ${foods}. ${macros} ${goalStr} Water: ${n.water} of 8 glasses. ${sleepStr}`;
+}
+
+async function ask(q){
+  const resp=document.getElementById('ai-resp');const btn=document.getElementById('ai-send');
+  btn.disabled=true;resp.className='ai-resp vis';
+  resp.innerHTML='<div class="ai-dots"><div class="ai-dot"></div><div class="ai-dot"></div><div class="ai-dot"></div></div>';
+  try{
+    const text=await callAI({
+      system:`You are a warm women's wellness and nutrition guide in a beautiful app called Bloom. Give personalised, practical nourishment advice based on what Amy has eaten today. Keep responses to 2–4 sentences. Warm tone, never clinical or preachy. No calorie obsessing. Amy does reformer Pilates (not mat) — typically 300–450 kcal per 45–60 min — and occasionally weight training (200–350 kcal per session, higher protein demand). Factor the type and intensity of any logged sessions into recovery nutrition and protein needs when relevant. Focus on energy, nourishment, hormonal balance, and how food supports movement. Context: ${buildCtx()}`,
+      messages:[{role:'user',content:q}]
+    });
+    resp.innerHTML=text.replace(/\n/g,'<br>');
+  }catch(e){
+    if(e.message==='NO_KEY')noKeyWarning(resp);
+    else resp.innerHTML='Something went wrong — check your connection.';
+  }finally{btn.disabled=false;}
+}
+function askInput(){const inp=document.getElementById('ai-inp');const q=inp.value.trim();if(!q)return;inp.value='';ask(q);}
+function setMood(btn){document.querySelectorAll('.mood-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.className='toast show';setTimeout(()=>t.className='toast',2700);}
+
+// ── PHOTO FOOD LOG ────────────────────────────────────────
+async function handlePhoto(event){
+  const file=event.target.files[0];
+  if(!file)return;
+
+  // Show preview
+  const preview=document.getElementById('photo-preview');
+  const reader=new FileReader();
+  reader.onload=async(e)=>{
+    const base64=e.target.result.split(',')[1];
+    const mediaType=file.type||'image/jpeg';
+
+    // Show thumbnail + loading state
+    if(preview){
+      preview.style.display='block';
+      preview.innerHTML=`
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:10px;background:var(--sage-light);border-radius:12px;">
+          <img src="${e.target.result}" style="width:60px;height:60px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+          <div style="flex:1;">
+            <div style="font-size:12px;font-weight:500;color:var(--ink);margin-bottom:3px;">Analysing your meal…</div>
+            <div style="font-size:11px;color:var(--warm-mid);">AI is identifying what's in the photo</div>
+            <div style="display:flex;gap:4px;margin-top:8px;"><div style="width:5px;height:5px;border-radius:50%;background:var(--sage);animation:pulse 1.2s infinite;"></div><div style="width:5px;height:5px;border-radius:50%;background:var(--sage);animation:pulse 1.2s .2s infinite;"></div><div style="width:5px;height:5px;border-radius:50%;background:var(--sage);animation:pulse 1.2s .4s infinite;"></div></div>
+          </div>
+        </div>`;
+    }
+
+    try{
+      const key=getApiKey();
+      if(!key){
+        if(preview)preview.innerHTML='<div style="font-size:12px;color:var(--accent);padding:8px 0;">No API key — open Bloom ⚙️ to add your key.</div>';
+        return;
+      }
+      const r=await fetch('https://api.anthropic.com/v1/messages',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+        body:JSON.stringify({
+          model:'claude-sonnet-4-20250514',
+          max_tokens:1000,
+          system:'You are a food identification assistant. Given an image of food or drink, respond ONLY with a JSON object: {"description": "brief plain English description of what you see, suitable for a food log entry", "items": ["item1", "item2"]}. Be specific about preparation method and approximate portion if visible. No markdown.',
+          messages:[{role:'user',content:[
+            {type:'image',source:{type:'base64',media_type:mediaType,data:base64}},
+            {type:'text',text:'What food or drink is in this image? Describe it for a food log.'}
+          ]}]
+        })
+      });
+      const data=await r.json();
+      if(data.error)throw new Error(data.error.message);
+      const raw=data.content?.find(b=>b.type==='text')?.text||'{}';
+      const parsed=JSON.parse(raw.replace(/```json|```/g,'').trim());
+      const description=parsed.description||'Meal from photo';
+
+      // Hide preview, log the food item
+      if(preview){
+        preview.innerHTML=`
+          <div style="display:flex;gap:10px;align-items:center;padding:10px;background:var(--sage-light);border-radius:12px;">
+            <img src="${e.target.result}" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+            <div style="flex:1;font-size:12px;color:var(--sage);">✓ Identified: ${description}</div>
+          </div>`;
+        setTimeout(()=>{preview.style.display='none';preview.innerHTML='';},2500);
+      }
+
+      // Add as food item and estimate macros
+      const now=new Date();
+      const time=now.toLocaleTimeString('en-AU',{hour:'2-digit',minute:'2-digit',hour12:true});
+      const item={id:Date.now(),text:description,time,emoji:'📷',macros:null,fromPhoto:true};
+      getTN().foods.unshift(item);save(S);
+      renderFoodList();renderMacroGoals();
+      estimateMacros(item);
+      showToast('Meal logged from photo ✓');
+
+    }catch(err){
+      if(preview)preview.innerHTML=`<div style="font-size:12px;color:var(--accent);padding:8px 0;">Couldn't identify meal — try describing it manually.</div>`;
+      setTimeout(()=>{if(preview){preview.style.display='none';preview.innerHTML='';}},3000);
+    }
+  };
+  reader.readAsDataURL(file);
+  // Reset input so same photo can be re-used
+  event.target.value='';
+}
+
+// ── ENTER KEYS ────────────────────────────────────────────
+document.getElementById('food-inp').addEventListener('keydown',e=>{if(e.key==='Enter')addFood();});
+document.getElementById('ai-inp').addEventListener('keydown',e=>{if(e.key==='Enter')askInput();});
+
+renderFoodList();renderMacros();
+</script>
+</body>
+</html>

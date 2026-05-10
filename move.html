@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20180%20180%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22bg%22%20cx%3D%2235%25%22%20cy%3D%2228%25%22%20r%3D%2275%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D8E8D9%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23B8CEBA%22/%3E%3C/radialGradient%3E%3ClinearGradient%20id%3D%22bg2%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%236B8C6D%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234D6B50%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%2240%22%20fill%3D%22url%28%23bg%29%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22rgba%28138%2C158%2C139%2C.2%29%22%20stroke-width%3D%221%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2246%22%20r%3D%2211%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cpath%20d%3D%22M90%2057%20C90%2062%2088%2068%2082%2072%20L65%2078%20C60%2080%2056%2078%2054%2074%20L52%2070%20C58%2064%2070%2060%2080%2060%20L90%2057Z%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cpath%20d%3D%22M84%2062%20C76%2058%2064%2054%2052%2053%20C46%2052%2044%2056%2046%2059%20C56%2060%2070%2064%2080%2068Z%22%20fill%3D%22url%28%23bg2%29%22%20opacity%3D%22.85%22/%3E%3Cpath%20d%3D%22M64%2076%20C68%2080%2076%2086%2090%2090%20L118%2092%20C124%2092%20128%2088%20126%2084%20C120%2082%20104%2082%2088%2080%20L72%2076Z%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cellipse%20cx%3D%22126%22%20cy%3D%2288%22%20rx%3D%228%22%20ry%3D%225%22%20fill%3D%22url%28%23bg2%29%22%20transform%3D%22rotate%28-10%20126%2088%29%22/%3E%3Cline%20x1%3D%2242%22%20y1%3D%22100%22%20x2%3D%22138%22%20y2%3D%22100%22%20stroke%3D%22rgba%2877%2C107%2C80%2C.35%29%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%3Crect%20x%3D%2240%22%20y%3D%2297%22%20width%3D%225%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22rgba%2877%2C107%2C80%2C.3%29%22/%3E%3Crect%20x%3D%22135%22%20y%3D%2297%22%20width%3D%225%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22rgba%2877%2C107%2C80%2C.3%29%22/%3E%3Ctext%20x%3D%2290%22%20y%3D%22128%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2215%22%20fill%3D%22%234D6B50%22%20letter-spacing%3D%224%22%20opacity%3D%22.8%22%3EMOVE%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20180%20180%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22bg%22%20cx%3D%2235%25%22%20cy%3D%2228%25%22%20r%3D%2275%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D8E8D9%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23B8CEBA%22/%3E%3C/radialGradient%3E%3ClinearGradient%20id%3D%22bg2%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%236B8C6D%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234D6B50%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%2240%22%20fill%3D%22url%28%23bg%29%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22rgba%28138%2C158%2C139%2C.2%29%22%20stroke-width%3D%221%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2246%22%20r%3D%2211%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cpath%20d%3D%22M90%2057%20C90%2062%2088%2068%2082%2072%20L65%2078%20C60%2080%2056%2078%2054%2074%20L52%2070%20C58%2064%2070%2060%2080%2060%20L90%2057Z%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cpath%20d%3D%22M84%2062%20C76%2058%2064%2054%2052%2053%20C46%2052%2044%2056%2046%2059%20C56%2060%2070%2064%2080%2068Z%22%20fill%3D%22url%28%23bg2%29%22%20opacity%3D%22.85%22/%3E%3Cpath%20d%3D%22M64%2076%20C68%2080%2076%2086%2090%2090%20L118%2092%20C124%2092%20128%2088%20126%2084%20C120%2082%20104%2082%2088%2080%20L72%2076Z%22%20fill%3D%22url%28%23bg2%29%22/%3E%3Cellipse%20cx%3D%22126%22%20cy%3D%2288%22%20rx%3D%228%22%20ry%3D%225%22%20fill%3D%22url%28%23bg2%29%22%20transform%3D%22rotate%28-10%20126%2088%29%22/%3E%3Cline%20x1%3D%2242%22%20y1%3D%22100%22%20x2%3D%22138%22%20y2%3D%22100%22%20stroke%3D%22rgba%2877%2C107%2C80%2C.35%29%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%3Crect%20x%3D%2240%22%20y%3D%2297%22%20width%3D%225%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22rgba%2877%2C107%2C80%2C.3%29%22/%3E%3Crect%20x%3D%22135%22%20y%3D%2297%22%20width%3D%225%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22rgba%2877%2C107%2C80%2C.3%29%22/%3E%3Ctext%20x%3D%2290%22%20y%3D%22128%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2215%22%20fill%3D%22%234D6B50%22%20letter-spacing%3D%224%22%20opacity%3D%22.8%22%3EMOVE%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#B8CEBA">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Move — Bloom</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--clay:#C9A99A;--blush:#E8D5CE;--parchment:#F7F0EB;--sage:#8A9E8B;--sage-light:#C4D4C5;--ink:#2C2826;--warm-mid:#7A6860;--accent:#B8826E;--gold:#C4A882;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--parchment);color:var(--ink);font-family:'DM Sans',sans-serif;font-weight:300;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(ellipse at 20% 10%,rgba(201,169,154,.15) 0%,transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(138,158,139,.12) 0%,transparent 50%);pointer-events:none;z-index:0;}
+.wrap{position:relative;z-index:1;max-width:430px;margin:0 auto;padding:48px 24px 40px;}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--warm-mid);text-decoration:none;letter-spacing:.08em;text-transform:uppercase;margin-bottom:20px;opacity:.6;}
+.back:hover{opacity:1;}
+.logo{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;letter-spacing:.04em;line-height:1;margin-bottom:2px;}
+.logo em{font-style:italic;color:var(--clay);}
+.app-name{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--sage);margin-bottom:26px;}
+.screen-title{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:300;line-height:1.1;margin-bottom:4px;}
+.screen-title em{font-style:italic;color:var(--sage);}
+.section-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:10px;font-weight:400;}
+.card{background:white;border-radius:20px;padding:17px;border:1px solid rgba(201,169,154,.14);box-shadow:0 2px 12px rgba(44,40,38,.04);margin-bottom:14px;}
+.type-chip{border:1.5px solid rgba(201,169,154,.22);border-radius:50px;padding:9px 16px;font-size:13px;background:white;cursor:pointer;color:var(--warm-mid);transition:all .2s;font-family:'DM Sans',sans-serif;white-space:nowrap;}
+.type-chip:hover{border-color:var(--sage);color:var(--sage);}
+.type-chip.sel{background:var(--sage);border-color:var(--sage);color:white;}
+.score-dots{display:flex;gap:5px;}
+.score-dot{flex:1;height:34px;border-radius:50px;border:1.5px solid rgba(201,169,154,.22);background:white;cursor:pointer;font-size:11px;font-weight:500;color:var(--warm-mid);display:flex;align-items:center;justify-content:center;transition:all .2s;}
+.score-dot.active{background:var(--sage);border-color:var(--sage);color:white;}
+.score-lbls{display:flex;justify-content:space-between;margin-top:5px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--warm-mid);opacity:.5;}
+.chips-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:4px;}
+.chip{border:1.5px solid rgba(201,169,154,.22);border-radius:50px;padding:8px 14px;font-size:12px;background:white;cursor:pointer;color:var(--warm-mid);transition:all .2s;font-family:'DM Sans',sans-serif;}
+.chip:hover,.chip.active{background:var(--sage-light);border-color:var(--sage);color:var(--sage);}
+.modal-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warm-mid);margin-bottom:9px;display:block;}
+.gap{margin-bottom:18px;}
+.btn{border:none;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif;}
+.btn-primary{background:var(--ink);color:white;border-radius:50px;padding:15px 24px;font-size:13px;letter-spacing:.07em;text-transform:uppercase;width:100%;font-weight:400;display:block;}
+.btn-primary:hover{background:var(--sage);}
+.pill-row{display:flex;gap:9px;margin-bottom:16px;}
+.stat-pill{flex:1;background:white;border:1px solid rgba(201,169,154,.18);border-radius:15px;padding:13px 9px;text-align:center;}
+.stat-pill.sage-hl{background:var(--sage);border-color:var(--sage);}
+.stat-pill.sage-hl .snum,.stat-pill.sage-hl .slbl{color:white;}
+.snum{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;color:var(--ink);line-height:1;margin-bottom:2px;}
+.slbl{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--warm-mid);}
+.sess-item{background:white;border-radius:16px;padding:13px 15px;display:flex;align-items:center;gap:11px;border:1px solid rgba(201,169,154,.12);margin-bottom:8px;}
+.sess-dot{width:40px;height:40px;border-radius:50%;background:var(--sage-light);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.sess-info{flex:1;}
+.sess-type{font-size:13px;font-weight:500;color:var(--ink);margin-bottom:2px;}
+.sess-meta{font-size:11px;color:var(--warm-mid);}
+.sess-score{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;color:var(--sage);}
+.sess-score-lbl{font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:var(--warm-mid);text-align:right;}
+.toast{display:none;position:fixed;top:62px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;border-radius:50px;padding:11px 22px;font-size:12px;z-index:400;white-space:nowrap;box-shadow:0 8px 24px rgba(44,40,38,.22);}
+.toast.show{display:block;animation:toastIn .3s cubic-bezier(.34,1.56,.64,1),toastOut .28s 2.2s ease forwards;}
+.success-flash{display:none;position:fixed;inset:0;background:var(--sage);z-index:300;flex-direction:column;align-items:center;justify-content:center;animation:fadeUp .3s ease;}
+.success-flash.show{display:flex;}
+.success-emoji{font-size:72px;margin-bottom:20px;}
+.success-msg{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;font-style:italic;color:white;text-align:center;}
+.success-sub{font-size:14px;color:rgba(255,255,255,.7);margin-top:8px;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes toastIn{from{opacity:0;transform:translateX(-50%) translateY(-8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+@keyframes toastOut{from{opacity:1}to{opacity:0}}
+</style>
+
+<link rel="manifest" href="move-manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Move">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← bloom</a>
+  <div class="logo">bl<em>oo</em>m</div>
+  <div class="app-name">Move</div>
+
+  <div class="screen-title">Log your<br><em>session</em></div>
+  <div style="font-size:12px;color:var(--warm-mid);margin-bottom:20px;">What did you do today?</div>
+
+  <!-- Type — compact scroll row, not a 5-row grid -->
+  <div class="section-label">Type of session</div>
+  <div style="display:flex;gap:9px;overflow-x:auto;padding-bottom:10px;margin-bottom:16px;-webkit-overflow-scrolling:touch;scrollbar-width:none;">
+    <div class="type-chip sel" onclick="selType(this,'Reformer Pilates','🧘')" style="flex-shrink:0;">🧘 Reformer Pilates</div>
+    <div class="type-chip" onclick="selType(this,'Weights','🏋️')" style="flex-shrink:0;">🏋️ Weights</div>
+    <div class="type-chip" onclick="selType(this,'Yoga','🌿')" style="flex-shrink:0;">🌿 Yoga</div>
+    <div class="type-chip" onclick="selType(this,'Walk','🚶')" style="flex-shrink:0;">🚶 Walk</div>
+    <div class="type-chip" onclick="selType(this,'Run','🏃')" style="flex-shrink:0;">🏃 Run</div>
+    <div class="type-chip" onclick="selType(this,'Swim','🏊')" style="flex-shrink:0;">🏊 Swim</div>
+    <div class="type-chip" onclick="selType(this,'Barre','🩰')" style="flex-shrink:0;">🩰 Barre</div>
+    <div class="type-chip" onclick="selType(this,'Cycling','🚴')" style="flex-shrink:0;">🚴 Cycling</div>
+    <div class="type-chip" onclick="selType(this,'Stretch','🌙')" style="flex-shrink:0;">🌙 Stretch</div>
+    <div class="type-chip" onclick="selType(this,'Dance','💃')" style="flex-shrink:0;">💃 Dance</div>
+    <div class="type-chip" onclick="selType(this,'Other','✨')" style="flex-shrink:0;">✨ Other</div>
+  </div>
+
+  <!-- Duration -->
+  <div class="gap">
+    <span class="modal-label">Duration</span>
+    <div class="chips-row">
+      <div class="chip" onclick="selDur(this,'20 min')">20m</div>
+      <div class="chip active" onclick="selDur(this,'30 min')">30m</div>
+      <div class="chip" onclick="selDur(this,'45 min')">45m</div>
+      <div class="chip" onclick="selDur(this,'60 min')">60m</div>
+      <div class="chip" onclick="selDur(this,'75 min')">75m</div>
+      <div class="chip" onclick="selDur(this,'90 min')">90m</div>
+    </div>
+  </div>
+
+  <!-- Effort score + inline guide -->
+  <div class="gap">
+    <span class="modal-label">Effort score</span>
+    <div class="score-dots" id="score-dots">
+      <div class="score-dot" onclick="selScore(1)">1</div>
+      <div class="score-dot" onclick="selScore(2)">2</div>
+      <div class="score-dot" onclick="selScore(3)">3</div>
+      <div class="score-dot" onclick="selScore(4)">4</div>
+      <div class="score-dot" onclick="selScore(5)">5</div>
+      <div class="score-dot" onclick="selScore(6)">6</div>
+      <div class="score-dot" onclick="selScore(7)">7</div>
+      <div class="score-dot" onclick="selScore(8)">8</div>
+      <div class="score-dot" onclick="selScore(9)">9</div>
+      <div class="score-dot" onclick="selScore(10)">10</div>
+    </div>
+    <div class="score-lbls"><span>Gentle</span><span>Moderate</span><span>Intense</span></div>
+    <!-- Score guide inline — right where it's needed -->
+    <div style="margin-top:12px;background:var(--sage-light);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;"><span style="color:var(--sage);font-weight:500;">1–3</span><span style="color:var(--warm-mid);">Gentle stretch or restorative</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;"><span style="color:var(--sage);font-weight:500;">4–6</span><span style="color:var(--warm-mid);">Moderate — working, breathing easy</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;"><span style="color:var(--sage);font-weight:500;">7–8</span><span style="color:var(--warm-mid);">Strong — sustained effort, real challenge</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;"><span style="color:var(--sage);font-weight:500;">9–10</span><span style="color:var(--warm-mid);">Peak — you completely earned it</span></div>
+    </div>
+  </div>
+
+  <!-- Notes -->
+  <div class="gap">
+    <span class="modal-label">Notes (optional)</span>
+    <input style="border:1.5px solid rgba(201,169,154,.24);border-radius:12px;padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:13px;color:var(--ink);background:var(--parchment);outline:none;width:100%;" id="notes-inp" placeholder="e.g. felt strong, tight hips, outdoor class…" />
+  </div>
+
+  <button class="btn btn-primary" onclick="saveSession()">Save session ✓</button>
+
+  <!-- Recent sessions -->
+  <div style="margin-top:30px;">
+    <div class="section-label">Recent sessions</div>
+    <div class="pill-row">
+      <div class="stat-pill sage-hl"><div class="snum" id="month-count">0</div><div class="slbl">This month</div></div>
+      <div class="stat-pill"><div class="snum" id="avg-score">–</div><div class="slbl">Avg score</div></div>
+      <div class="stat-pill"><div class="snum" id="streak-count">0</div><div class="slbl">Streak</div></div>
+    </div>
+    <div id="sess-list"></div>
+  </div>
+</div>
+
+<!-- Success flash -->
+<div class="success-flash" id="success-flash">
+  <div class="success-emoji" id="success-emoji">🧘</div>
+  <div class="success-msg" id="success-msg">Session logged</div>
+  <div class="success-sub" id="success-sub">45 min · effort 8/10</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const KEY='bloom_v1';
+function td(d){const dt=d||new Date();return dt.toISOString().slice(0,10);}
+const TODAY=td();
+function load(){try{const r=localStorage.getItem(KEY);if(r)return JSON.parse(r);}catch(e){}return{sessions:[],nourish:{},sleep:{},bodyweight:[],measurements:[]};}
+function save(s){try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}}
+let S=load();
+
+let selTypeState={name:'Reformer Pilates',emoji:'🧘'};
+let selScoreState=null;
+let selDurState='30 min';
+
+function selType(card,name,emoji){
+  document.querySelectorAll('.type-chip').forEach(c=>c.classList.remove('sel'));
+  card.classList.add('sel');
+  selTypeState={name,emoji};
+}
+function selScore(n){
+  selScoreState=n;
+  document.querySelectorAll('.score-dot').forEach((d,i)=>d.classList.toggle('active',i<n));
+}
+function selDur(chip,dur){
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+  chip.classList.add('active');
+  selDurState=dur;
+}
+
+function saveSession(){
+  if(!selScoreState){showToast('Please select an effort score');return;}
+  const sess={
+    id:Date.now(),type:selTypeState.name,emoji:selTypeState.emoji,
+    score:selScoreState,duration:selDurState,date:TODAY,
+    notes:document.getElementById('notes-inp').value.trim()
+  };
+  S.sessions.unshift(sess);save(S);
+  showSuccess(sess);
+  document.getElementById('notes-inp').value='';
+  selScoreState=null;
+  document.querySelectorAll('.score-dot').forEach(d=>d.classList.remove('active'));
+  renderStats();
+}
+
+function showSuccess(sess){
+  const f=document.getElementById('success-flash');
+  document.getElementById('success-emoji').textContent=sess.emoji;
+  document.getElementById('success-msg').textContent=`${sess.type} logged`;
+  document.getElementById('success-sub').textContent=`${sess.duration} · effort ${sess.score}/10`;
+  f.classList.add('show');
+  setTimeout(()=>{f.classList.remove('show');renderStats();},2200);
+}
+
+function calcStreak(){
+  const dates=[...new Set(S.sessions.map(s=>s.date))].sort().reverse();
+  let streak=0,check=new Date(TODAY);
+  for(const d of dates){
+    const diff=Math.round((check-new Date(d))/86400000);
+    if(diff<=1){streak++;check=new Date(d);}else break;
+  }
+  return streak;
+}
+
+function fmtDate(str){return new Date(str+'T12:00:00').toLocaleDateString('en-AU',{day:'numeric',month:'short'});}
+function relDate(str){
+  const diff=Math.round((new Date(TODAY)-new Date(str))/86400000);
+  if(diff===0)return'Today';if(diff===1)return'Yesterday';return fmtDate(str);
+}
+
+function renderStats(){
+  const now=new Date();const m=now.getMonth();const y=now.getFullYear();
+  const ms=S.sessions.filter(s=>{const d=new Date(s.date);return d.getMonth()===m&&d.getFullYear()===y;});
+  const mc=document.getElementById('month-count');if(mc)mc.textContent=ms.length;
+  const as=document.getElementById('avg-score');if(as)as.textContent=ms.length?(ms.reduce((a,b)=>a+b.score,0)/ms.length).toFixed(1):'–';
+  const sc=document.getElementById('streak-count');if(sc)sc.textContent=calcStreak();
+  const list=document.getElementById('sess-list');if(!list)return;
+  const sorted=[...S.sessions].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,10);
+  if(!sorted.length){list.innerHTML='<div style="font-size:13px;color:var(--warm-mid);opacity:.4;padding:8px 0;">No sessions yet — log your first one above 🌸</div>';return;}
+  list.innerHTML=sorted.map(s=>`
+    <div class="sess-item">
+      <div class="sess-dot">${s.emoji}</div>
+      <div class="sess-info"><div class="sess-type">${s.type}</div><div class="sess-meta">${relDate(s.date)} · ${s.duration}${s.notes?' · '+s.notes:''}</div></div>
+      <div style="text-align:right;"><div class="sess-score">${s.score}</div><div class="sess-score-lbl">/ 10</div></div>
+    </div>`).join('');
+}
+
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.className='toast show';setTimeout(()=>t.className='toast',2700);}
+
+renderStats();
+</script>
+</body>
+</html>
